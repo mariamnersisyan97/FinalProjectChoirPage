@@ -53,6 +53,9 @@ div {
     
     
 }
+ul a:hover {
+    color: red;
+}
 .navbar {
     overflow: hidden;
     color: grey;
@@ -149,7 +152,7 @@ section header div nav p {
     color: black;
     font-size: 2em;
 }
-.newspic{
+.newspic, .eventspic{
     width: 100px;
     height: 90px;
     padding: 0px 70px;
@@ -165,6 +168,7 @@ section header div nav p {
     color: black;
     font-size: 2em;
 }
+
 .third-container {
     background: url("grapes.jpg");
     background-position: center;
