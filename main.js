@@ -8,6 +8,9 @@
 //     }
 
 // })
+
+
+
 $(document).ready(function() {
 
        var stickyNavTop = $('.navbar').offset().top;
@@ -25,4 +28,5 @@ $(document).ready(function() {
         stickyNav();
     });
 });
+
 
