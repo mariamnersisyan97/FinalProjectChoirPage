@@ -4,7 +4,8 @@ html, body {
     margin-top: 0px; COMPENSATES THE HORIZONTAL SCROLLBAR */
     font-family: 'Lato', sans-serif;
 }
-body {
+@media only screen and (max-width: 400px) {
+    body {
     background: rgb(204, 204, 204); 
     background: rgba(204, 204, 204, 0.5);
     background-position: center;
@@ -12,7 +13,7 @@ body {
     height: 100vh; 
     background-size: cover;
     
-}
+} }
 /* header {
     color: black;
 } */
