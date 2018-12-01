@@ -135,10 +135,10 @@ section header div nav p {
     text-align: center;
 }
 
-/* .section2 {
+.section2 {
     display: flex;
     justify-content: space-evenly;
-} */
+}
 .flyers img {
     width: 80px;
     height: 30px;
@@ -151,31 +151,11 @@ section header div nav p {
     flex-direction: row;
 }
 
-/* .upcomingevents img, {
-    width: 80px;
-    height: 30px;
-    margin: -300px; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-    
-    
-    
-} */
 
 
 
-/* .flyers img {
-    width: auto;
-    height: 400px;
-    display: flex;
-    position: static;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
 
-} */
+
 
 /* .titleevents {
     color: black;
