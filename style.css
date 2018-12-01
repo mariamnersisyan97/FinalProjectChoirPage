@@ -14,19 +14,12 @@ html, body {
     background-size: cover;
     
 } }
-/* header {
-    color: black;
-} */
-div {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
 
-}
 
 .conductorname {
     font-size: 2em;
-    font-style: italic;
+    font-style: 700;
+    color: #e33946;
 }
 .conductortitle {
     font-size: 2em;
@@ -61,6 +54,7 @@ ul a:hover {
     color: grey;
     background: rgb(204, 204, 204); 
     background: rgba(204, 204, 204, 0.5);
+
 }
 .navbar img{
     width: 100px;
@@ -69,6 +63,7 @@ ul a:hover {
     float: left;
     margin: -110px;
     position: absolute;
+
 }
 .navbar.black {
     /* background: rgba(0,0,0,0.8); */
@@ -140,22 +135,51 @@ section header div nav p {
     text-align: center;
 }
 
-.second-container {
-    background-color: white;
-    padding: none;
+/* .section2 {
+    display: flex;
+    justify-content: space-evenly;
+} */
+.flyers img {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    
+}
+.upcomingevents img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+/* .upcomingevents img, {
+    width: 80px;
+    height: 30px;
+    margin: -300px; 
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+    
+} */
+
+
+
+/* .flyers img {
+    width: auto;
+    height: 400px;
+    display: flex;
+    position: static;
+    flex-direction: column;
     justify-content: space-evenly;
-}
-.titleevents {
+    
+
+} */
+
+/* .titleevents {
     color: black;
     font-size: 2em;
-}
-.newspic, .eventspic, .upcomingpic{
-    width: 100px;
-    height: 90px;
-    padding: 0px 70px;
-    position: relative;
 }
 .titleevents2 {
     color: black;
@@ -165,7 +189,7 @@ section header div nav p {
 .titleevents3 {
     color: black;
     font-size: 2em;
-}
+} */
 
 .third-container {
     background: black;
@@ -183,3 +207,6 @@ section header div nav p {
 .fifth-container {
     background-color: white;
 }
+
+
+
