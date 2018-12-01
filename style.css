@@ -30,9 +30,7 @@ html, body {
     font-style: unset;
     font-weight: 900;
 }
-.established {
-    font-size: 2em;
-}
+
 
 .nav {
     /* position: fixed; */
@@ -135,24 +133,46 @@ section header div nav p {
     text-align: center;
 }
 
-.section2 {
+/* .section2 {
     display: flex;
     justify-content: space-evenly;
-}
-.flyers img {
+} */
+/* .flyers img {
     width: 80px;
     height: 30px;
     display: flex;
     
-}
-.upcomingevents img{
-    display: flex;
+    
+} */
+/* .upcomingevents img{
+    display: flex; 
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column; 
+    
+} */
+
+
+
+.upcomingevents img {
+    position: relative;
+    height: auto;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
 }
-
-
-
+.headings {
+    font-size: 4em;
+    text-align: center;
+}
+.smallnews {
+    font-size: 2em;
+    text-align: center;
+}
+.headings:hover {
+    color: red;
+}
 
 
 
@@ -172,7 +192,7 @@ section header div nav p {
 } */
 
 .third-container {
-    background: black;
+    background: beige;
     background-position: center;
     width: 100%;
     height: 100vh; 
@@ -181,7 +201,7 @@ section header div nav p {
 }
 
 .fourth-container {
-    background-color: navy;
+    background-color: black;
 
 }
 .fifth-container {
