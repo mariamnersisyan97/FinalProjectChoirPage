@@ -31,5 +31,9 @@ $(document).ready(function() {
 
 
 
+$( document ).click(function() {
+    $( "#bouncey" ).toggle( "bounce", { times: 3 }, "slow" );
+  });
+
 
 
